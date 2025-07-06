@@ -1,0 +1,97 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff4e0;
+}
+
+/* Menu lateral direito */
+nav {
+  width: 200px;
+  background-color: #2c1ac9;
+  padding: 10px;
+  height: 100vh;
+}
+
+
+nav ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+nav li {
+  margin-bottom: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px; 
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+/* Formulário */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+  background-color: #2c1ac9;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ff9900;
+}
+
